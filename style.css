@@ -9,3 +9,7 @@ class names:
 what you're working on(pages, layouts, bio) - item
 
 */
+
+.img-thumbnail {
+    width: 30vw;
+}
