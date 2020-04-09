@@ -10,7 +10,7 @@ Welcome, new hires! Your first task as a reporter of the NewForce Tribute Agency
 
 This should be the first information displayed when the report is opened. It should contain the following components.
 
-1. Known collaborators with the artist.
+1. Known collaborators with the artist. 
 1. A portrait of the artist. This component should have a photo and name.
 1. List of known aliases.
 1. Country of residence.
