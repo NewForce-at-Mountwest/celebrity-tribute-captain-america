@@ -1,0 +1,13 @@
+.footer-ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.footer-ul-li{
+    margin: 2em;
+}
+
+.career-h1{
+    margin: 20px 0px;
+}
