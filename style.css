@@ -1,3 +1,26 @@
+.footer-ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.footer-ul-li{
+    margin: 2em;
+}
+
+.career-h1{
+    margin: 20px 0px;
+}
+
+.career-ul{
+    margin: 2em;
+}
+
+.card{
+    margin: 2em;
+}
+
+
 /* Colors
 Americana:
 MediumBlue
