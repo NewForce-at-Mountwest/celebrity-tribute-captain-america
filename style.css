@@ -12,3 +12,27 @@
     margin: 20px 0px;
 }
 
+.career-ul{
+    margin: 2em;
+}
+
+.card{
+    margin: 2em;
+}
+
+.row-cards{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Colors
+Americana:
+MediumBlue
+AliceBlue
+MidnightBlue
+FireBrick
+
+class names:
+what you're working on(pages, layouts, bio) - item
+
+*/
