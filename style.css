@@ -1,40 +1,46 @@
-.footer-ul{
+.footer-ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
 
-.footer-ul-li{
+.footer-ul-li {
     margin: 2em;
 }
 
+
 /* Add to all H1 */
-.h1-format{
+
+.h1-format {
     margin: 15px 0px;
     color: #e2001a;
 }
 
-.ul-format{
+.ul-format {
     margin: 2em;
 }
 
-.card-format{
+.card-format {
     margin: 2em;
 }
+
 
 /* Add to body element in HTML */
-.body-format{
+
+.body-format {
     background-color: #000033;
     color: #191970;
 }
 
+
 /* Add to all bootstrap rows */
-.row-format{
-    margin:2em;
+
+.row-format {
+    margin: 2em;
     background-color: #ffffff;
     border: 4px solid #007bff;
     border-radius: 8px;
-    padding:20px;
+    padding: 20px;
 }
 
 
@@ -49,7 +55,23 @@ class names:
 what you're working on(pages, layouts, bio) - item
 
 */
-html,
+
+<<<<<<< HEAD html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://images.unsplash.com/photo-1506551907304-60bb62ffc9b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+=======html,
 body,
 header,
 #intro {
@@ -68,3 +90,5 @@ header,
     display: flex;
     justify-content: center;
 }
+
+>>>>>>>master
