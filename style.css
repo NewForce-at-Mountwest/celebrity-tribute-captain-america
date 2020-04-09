@@ -56,22 +56,6 @@ what you're working on(pages, layouts, bio) - item
 
 */
 
-<<<<<<< HEAD html,
-body,
-header,
-#intro {
-    height: 100%;
-}
-
-#intro {
-    background: url("https://images.unsplash.com/photo-1506551907304-60bb62ffc9b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-=======html,
 body,
 header,
 #intro {
@@ -90,5 +74,3 @@ header,
     display: flex;
     justify-content: center;
 }
-
->>>>>>>master
