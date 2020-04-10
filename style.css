@@ -78,3 +78,53 @@ header,
     background-size: cover;
 }
 
+.container{
+    overflow:hidden;
+}
+
+/* .container-flex {
+    display: flex;
+    margin-top: 50px;
+  } */
+  
+ .item-flex {
+    /* position: relative;
+    display: block;
+    flex: 1 1 0px; */
+    transition: transform 500ms;
+  }
+  
+  /* .container-flex:focus-within .item-flex,
+  .container-flex:hover .item-flex {
+    transform: translateX(-25%);
+  } */
+  
+  /* .item-flex:focus ~ .item-flex,
+  .item-flex:hover ~ .item-flex {
+    transform: translateX(25%);
+  } */
+  
+  .container-flex .item-flex:focus,
+  .container-flex .item-flex:hover {
+    transform: scale(1.5);
+    z-index: 1;
+  }
+  
+  /* .item-flex img {
+    display: block;
+    max-width: 100%;
+  } */
+
+  span{
+        position:absolute; 
+        width:100%;
+        height:100%;
+        top:0;
+        left: 0;
+      
+        z-index: 1;
+      
+        /* fixes overlap error in IE7/8, 
+           make sure you have an empty gif */
+        background-image: url('empty.gif');
+  }
