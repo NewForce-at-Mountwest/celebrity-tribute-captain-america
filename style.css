@@ -55,6 +55,11 @@
     color: #e2001a;
 }
 
+.header-color {
+    text-align: center;
+    color: #191970;
+}
+
 
 /* Colors
 Americana:
@@ -102,14 +107,15 @@ header,
     display: flex;
     justify-content: center;
     margin: 15px 0px;
-    color: #e2001a;}
+    color: #e2001a;
+}
 
-
-img {width: 100%;
+img {
+    width: 100%;
     border-radius: 6px;
 }
 
 div.container {
-  text-align: center;
-  padding: 10px 20px;
+    text-align: center;
+    padding: 10px 20px;
 }
