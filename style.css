@@ -50,6 +50,11 @@
     flex-direction: column;
 }
 
+.header-center {
+    text-align: center;
+    color: #e2001a;
+}
+
 
 /* Colors
 Americana:
