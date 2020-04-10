@@ -43,11 +43,16 @@
     padding: 20px;
 }
 
-.img-format{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+<<<<<<< HEAD=======.img-format {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+.header-center {
+    text-align: center;
+    color: #e2001a;
 }
 
 
@@ -62,6 +67,21 @@ class names:
 what you're working on(pages, layouts, bio) - item
 
 */
+
+html,
+>>>>>>>master body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("https://images.unsplash.com/photo-1506551907304-60bb62ffc9b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 html,
 body,
@@ -138,3 +158,18 @@ header,
  * ---------------------------------------------- */
 
 @-webkit-keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}}@keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}}
+.news-heading {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+    color: #e2001a;}
+
+
+img {width: 100%;
+    border-radius: 6px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
