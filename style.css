@@ -43,11 +43,16 @@
     padding: 20px;
 }
 
-.img-format{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+<<<<<<< HEAD=======.img-format {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+.header-center {
+    text-align: center;
+    color: #e2001a;
 }
 
 
@@ -64,7 +69,7 @@ what you're working on(pages, layouts, bio) - item
 */
 
 html,
-body,
+>>>>>>>master body,
 header,
 #intro {
     height: 100%;
@@ -77,4 +82,3 @@ header,
     -o-background-size: cover;
     background-size: cover;
 }
-
