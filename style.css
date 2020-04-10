@@ -43,7 +43,28 @@
     padding: 20px;
 }
 
-body,
+<<<<<<< HEAD=======.img-format {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Colors
+Americana:
+MediumBlue
+AliceBlue
+MidnightBlue
+FireBrick
+
+class names:
+what you're working on(pages, layouts, bio) - item
+
+*/
+
+html,
+>>>>>>>master body,
 header,
 #intro {
     height: 100%;
@@ -55,9 +76,4 @@ header,
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.news-heading {
-    display: flex;
-    justify-content: center;
 }
