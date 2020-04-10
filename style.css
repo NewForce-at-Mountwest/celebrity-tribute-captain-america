@@ -25,6 +25,7 @@
 
 .card-format {
   margin: 28px;
+  border: 1px solid black;
 }
 
 /* Add to body element in HTML */
