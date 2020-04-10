@@ -1,212 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Evans' Career</title>
     <!-- Links Bootstrap stylesheet -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <!-- Links custom stylesheet -->
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
 
-  <body class="body-format">
+<body class="body-format">
     <!-- Creates nav bar, linked to Bootstrap -->
     <div class="nav-bar">
-      <!-- Changing the navbar-dark and bg-dark also changes the color of the navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="index.html">Chris Evans</a>
+        <!-- Changing the navbar-dark and bg-dark also changes the color of the navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">Chris Evans</a>
 
-        <!-- Button, potentially for the menu on responsive screens -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+            <!-- Button, potentially for the menu on responsive screens -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- container for nav bar links. Link must have "active" class on current page -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <!-- Executive Summary link -->
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Executive Summary</a>
-            </li>
-            <!-- Personal page link -->
-            <li class="nav-item">
-              <a class="nav-link" href="personal.html">Personal</a>
-            </li>
-            <!-- Career page link -->
-            <li class="nav-item active">
-              <a class="nav-link" href="career.html">Career</a>
-            </li>
-            <!-- News Feed Link -->
-            <li class="nav-item">
-              <a class="nav-link" href="newsfeed.html">News Feed</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+            <!-- container for nav bar links. Link must have "active" class on current page -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!-- Executive Summary link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Executive Summary</a>
+                    </li>
+                    <!-- Personal page link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="personal.html">Personal</a>
+                    </li>
+                    <!-- Career page link -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="career.html">Career</a>
+                    </li>
+                    <!-- News Feed Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="newsfeed.html">News Feed</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
     <!-- End of nav bar code, add page body here -->
 
     <div class="container">
-      <div class="row row-format">
-        <!-- Artist intro -->
-        <div class="col-sm">
-          <h1 class="h1-format">Who is Chris Evans?</h1>
-          <p>
-            Christopher Robert Evans is an American actor. He first gained
-            attention in 2005 as the Marvel Comics character Human Torch in
-            Fantastic Four (2005) and its 2007 sequel and later gained further
-            worldwide attention for his portrayal of Steve Rogers / Captain
-            America in the Marvel Cinematic Universe, appearing in eleven films
-            including four cameos. His work in the latter film series
-            established him as one of the highest-paid actors in the world.
-          </p>
-        </div>
-      </div>
-      <!-- End of intro row -->
-
-      <div class="row row-format">
-        <!-- Talents -->
-        <div class="col-sm">
-          <h1 class="h1-format">Talents</h1>
-          <ul>
-            <li>Acting</li>
-            <li>Singing</li>
-            <li>Political activism</li>
-            <li>Saving women from falling in gowns</li>
-          </ul>
-        </div>
-        <!-- Collaborators -->
-        <div class="col-sm">
-          <h1 class="h1-format">Collaborators</h1>
-          <ul>
-            <li>Robert Downey, Jr.</li>
-            <li>Chris Hemsworth</li>
-            <li>Scarlett Johansson</li>
-            <li>Paul Rudd</li>
-            <li>Jessica Alba</li>
-            <li>Michael Cera</li>
-            <li>Mary Elizabeth Winstead</li>
-          </ul>
-        </div>
-        <!-- Locations they've lived -->
-        <div class="col-sm">
-          <h1 class="h1-format">Locations Lived</h1>
-          <ul>
-            <li>Boston, MA</li>
-            <li>New York City, NY</li>
-            <li>Los Angeles, CA</li>
-          </ul>
-        </div>
-      </div>
-      <!-- End of second misc. row -->
-
-      <div class="row row-format">
-        <!-- List of works -->
-        <div class="col-12">
-          <h1 class="h1-format">Roles</h1>
-          <div class="row">
-          <div class="card card-format" style="width: 15rem;">
-            <img src="https://images.cinemaexpress.com/uploads/user/imagelibrary/2020/4/7/original/chris-evans-1.jpg" class="card-img-top" alt="Chris Evans as Captain America" />
-            <div class="card-body">
-              <p class="card-text">
-                Steve Rogers / Captain America in Disney's Marvel Cinematic
-                Universe
-              </p>
+        <div class="row row-format">
+            <!-- Artist intro -->
+            <div class="col-sm">
+                <h1 class="h1-format">Who is Chris Evans?</h1>
+                <p>
+                    Christopher Robert Evans is an American actor. He first gained attention in 2005 as the Marvel Comics character Human Torch in Fantastic Four (2005) and its 2007 sequel and later gained further worldwide attention for his portrayal of Steve Rogers / Captain
+                    America in the Marvel Cinematic Universe, appearing in eleven films including four cameos. His work in the latter film series established him as one of the highest-paid actors in the world.
+                </p>
             </div>
-          </div>
-          <div class="card card-format" style="width: 15rem;">
-            <img src="https://www.syfy.com/sites/syfy/files/styles/1200x680/public/wire/legacy/images/FantasticFour_humantorch.jpg" class="card-img-top" alt="Chris Evans as the Human Torch" />
-            <div class="card-body">
-              <p class="card-text">
-                Johnny Storm / The Human Torch in 2005's "Fantastic Four"
-              </p>
-            </div>
-          </div>
-          
-          <div class="card card-format" style="width: 15rem;">
-            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/chris-evans-as-ransom-thrombey-in-knives-out-1582985591.png" class="card-img-top" alt="Chris Evans as Ransom Drysdale" />
-            <div class="card-body">
-              <p class="card-text">Ransom Drysdale in 2019's "Knives Out"</p>
-            </div>
-          </div>
-
-          <div class="card card-format" style="width: 15rem;">
-            <img src="https://static.fusionmovies.to/images/character/H8U6kmV5ns7jQ7kPfR26nGYPxbCq2YRHaHXzrChSResYkRAHm4FtfuYhUKM1hZ3uNybNfeuAt-01sPaD1tWh4Bv9LyUkQNvgSMIoSz9Kd4E.jpg?1" class="card-img-top" alt="Chris Evans as Lucas Lee, alongside Scott Pilgrim cast" />
-            <div class="card-body">
-              <p class="card-text">
-                Lucas Lee in 2010's "Scott Pilgrim vs. the World"
-              </p>
-            </div>
-          </div>
-
-          <div class="card card-format" style="width: 15rem;">
-            <img src="https://vignette.wikia.nocookie.net/giftedmovie/images/b/bd/Frank_Adler.png/revision/latest?cb=20180612154054" class="card-img-top" alt="Chris Evans as Frank Adler" />
-            <div class="card-body">
-              <p class="card-text">
-                Frank Adler in 2017's "Gifted"
-              </p>
-            </div>
-          </div>
-
-          <div class="card card-format" style="width: 15rem;">
-            <img src="https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2019/08/01/Pictures/_c3118904-b435-11e9-8cbf-78d1c56f2fe2.JPG" class="card-img-top" alt="Chris Evans as Ari Levinson" />
-            <div class="card-body">
-              <p class="card-text">
-                Ari Levinson in 2019's "The Red Sea Diving Resort"
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
-      </div>
+        <!-- End of intro row -->
 
-      <div class="row row-format">
-        <!-- List of awards -->
-        <div class="col-sm">
-          <h1 class="h1-format">Recent Awards</h1>
-          <ul>
-            <li>
-              2017 - "Favorite Butt-Kicker," "Captain America: Civil War," Kids'
-              Choice Awards
-            </li>
-            <li>
-              2017 - "Favorite Aciton Movie Actor," "Captain America: Civil
-              War," People's Choice Awards
-            </li>
-            <li>
-              2015 - "Best Actor in an Action Move," "Avengers: Age of Ultron,"
-              Critics' Choice Awards
-            </li>
-          </ul>
+        <div class="row row-format">
+            <!-- Talents -->
+            <div class="col-sm">
+                <h1 class="h1-format">Talents</h1>
+                <ul class="list-unstyled">
+                    <li>Acting</li>
+                    <li>Singing</li>
+                    <li>Political activism</li>
+                    <li>Saving women from falling in gowns</li>
+                </ul>
+            </div>
+            <!-- Collaborators -->
+            <div class="col-sm">
+                <h1 class="h1-format">Collaborators</h1>
+                <ul class="list-unstyled">
+                    <li>Robert Downey, Jr.</li>
+                    <li>Chris Hemsworth</li>
+                    <li>Scarlett Johansson</li>
+                    <li>Paul Rudd</li>
+                    <li>Jessica Alba</li>
+                    <li>Michael Cera</li>
+                    <li>Mary Elizabeth Winstead</li>
+                </ul>
+            </div>
+            <!-- Locations they've lived -->
+            <div class="col-sm">
+                <h1 class="h1-format">Locations Lived</h1>
+                <ul class="list-unstyled">
+                    <li>Boston, MA</li>
+                    <li>New York City, NY</li>
+                    <li>Los Angeles, CA</li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <!-- End of awards and works row -->
+        <!-- End of second misc. row -->
+
+        <div class="row row-format">
+            <!-- List of works -->
+            <div class="col-12">
+                <h1 class="h1-format">Roles</h1>
+                <div class="row">
+                    <div class="card card-format" style="width: 15rem;">
+                        <img src="https://images.cinemaexpress.com/uploads/user/imagelibrary/2020/4/7/original/chris-evans-1.jpg" class="card-img-top" alt="Chris Evans as Captain America" />
+                        <div class="card-body">
+                            <p class="card-text">
+                                Steve Rogers / Captain America in Disney's Marvel Cinematic Universe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card card-format" style="width: 15rem;">
+                        <img src="https://www.syfy.com/sites/syfy/files/styles/1200x680/public/wire/legacy/images/FantasticFour_humantorch.jpg" class="card-img-top" alt="Chris Evans as the Human Torch" />
+                        <div class="card-body">
+                            <p class="card-text">
+                                Johnny Storm / The Human Torch in 2005's "Fantastic Four"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card card-format" style="width: 15rem;">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/chris-evans-as-ransom-thrombey-in-knives-out-1582985591.png" class="card-img-top" alt="Chris Evans as Ransom Drysdale" />
+                        <div class="card-body">
+                            <p class="card-text">Ransom Drysdale in 2019's "Knives Out"</p>
+                        </div>
+                    </div>
+
+                    <div class="card card-format" style="width: 15rem;">
+                        <img src="https://static.fusionmovies.to/images/character/H8U6kmV5ns7jQ7kPfR26nGYPxbCq2YRHaHXzrChSResYkRAHm4FtfuYhUKM1hZ3uNybNfeuAt-01sPaD1tWh4Bv9LyUkQNvgSMIoSz9Kd4E.jpg?1" class="card-img-top" alt="Chris Evans as Lucas Lee, alongside Scott Pilgrim cast"
+                        />
+                        <div class="card-body">
+                            <p class="card-text">
+                                Lucas Lee in 2010's "Scott Pilgrim vs. the World"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card card-format" style="width: 15rem;">
+                        <img src="https://vignette.wikia.nocookie.net/giftedmovie/images/b/bd/Frank_Adler.png/revision/latest?cb=20180612154054" class="card-img-top" alt="Chris Evans as Frank Adler" />
+                        <div class="card-body">
+                            <p class="card-text">
+                                Frank Adler in 2017's "Gifted"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card card-format" style="width: 15rem;">
+                        <img src="https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2019/08/01/Pictures/_c3118904-b435-11e9-8cbf-78d1c56f2fe2.JPG" class="card-img-top" alt="Chris Evans as Ari Levinson" />
+                        <div class="card-body">
+                            <p class="card-text">
+                                Ari Levinson in 2019's "The Red Sea Diving Resort"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-format">
+            <!-- List of awards -->
+            <div class="col-sm">
+                <h1 class="h1-format">Recent Awards</h1>
+                <ul class="list-unstyled">
+                    <li>
+                        2017 - "Favorite Butt-Kicker," "Captain America: Civil War," Kids' Choice Awards
+                    </li>
+                    <li>
+                        2017 - "Favorite Aciton Movie Actor," "Captain America: Civil War," People's Choice Awards
+                    </li>
+                    <li>
+                        2015 - "Best Actor in an Action Move," "Avengers: Age of Ultron," Critics' Choice Awards
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End of awards and works row -->
     </div>
     <!-- End of Bootstrap container -->
 
     <!-- start of social media footer -->
     <!-- twitter -->
     <ul class="nav justify-content-center ul-format">
-      <li class="nav-item">
-        <a
-          class="nav-link active"
-          href="https://twitter.com/ChrisEvans?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-          >Twitter</a
+        <li class="nav-item">
+            <a class="nav-link active" href="https://twitter.com/ChrisEvans?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a
         >
       </li>
       <!-- if you give a dog a donut -->
