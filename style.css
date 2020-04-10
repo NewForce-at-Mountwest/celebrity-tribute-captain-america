@@ -56,6 +56,27 @@
   color: #e2001a;
 }
 
+<<<<<<< HEAD
+=======
+.header-color {
+    text-align: center;
+    color: #191970;
+}
+
+
+/* Colors
+Americana:
+MediumBlue
+AliceBlue
+MidnightBlue
+FireBrick
+
+class names:
+what you're working on(pages, layouts, bio) - item
+
+*/
+
+>>>>>>> master
 html,
 body,
 header,
@@ -82,6 +103,7 @@ header,
   z-index: 1;
 }
 
+<<<<<<< HEAD
 span {
   position: absolute;
   width: 100%;
@@ -102,3 +124,21 @@ div.container {
   padding: 10px 20px;
   overflow: hidden;
 }
+=======
+.news-heading {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+    color: #e2001a;
+}
+
+img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+>>>>>>> master
